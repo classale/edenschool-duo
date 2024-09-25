@@ -1,0 +1,29 @@
+.carte {
+    display: flex;
+    width: 280px;
+    height: 395px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carte div{
+    width: 50%;
+    height: 50%;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.bleu{
+    background-color: rgb(0, 17, 250);
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.vert{
+    background-color: rgb(0, 255, 0);
+}
