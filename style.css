@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.cards {
+	background-color: red;
+	height: 395px;
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+	border-radius: 20px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+* {
+	font-family: Inter;
+	color: white;
+	margin: 0;
+}
+
+p {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.uno {
+	font-size: 48px;
+}
+
+.doce {
+	font-size: 160px;
+	text-align: center;
+}
+
+.trece {
+	font-size: 48px;
+	text-align: right;
+}
